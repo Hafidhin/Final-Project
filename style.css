@@ -1,0 +1,88 @@
+/*mengatur bakground web*/
+body {
+  background-image: url(lab.jpg);
+  background-size: 100%;
+  font-family: sans-serif;
+}
+ 
+ /*Style untuk Judul Tulisan Final Project*/
+h2 {
+  color: white;
+}
+ 
+ 
+ /*Style untuk Tulisan Form sperti nama,nim,email,alamat*/
+label {
+  font-size: 10pt;
+  color: white;
+}
+ 
+/*Style untuk list pendaftaran*/
+a{
+  font-size: 25pt;
+  color: red;
+}
+
+/*Style untuk Text area Form*/
+input[type="text"],
+input[type="email"],
+textarea {
+  padding: 8px;
+  width: 95%;
+  background: blue;
+  border: 0;
+  font-size: 10pt;
+  margin: 6px 0px;
+}
+ 
+/*Background Dari Form*/
+.background {
+  padding: 1em;
+  margin: 2em auto;
+  width: 17em;
+  background: transparent;
+  border-radius: 3px;
+}
+
+ /*Style untuk Tombol Submit & Tulisan daftar*/
+.tombol {
+  background: blue;
+  color: white;
+  border: 0;
+  padding: 5px 8px;
+}
+
+/*Style untuk Tulisan Copyright*/
+.footer{
+  color: white;
+  margin-top: 100px;
+  width: 100%;
+  float: left;
+  border-radius: 3px;
+}
+
+/*Style Untuk Jam*/
+
+/*Background Dalam Jam*/
+.kotak{
+  float: left;
+  width: 110px;
+  height: 100px;
+  background-color: transparent;
+}
+
+/*Border Pinggiran Bingkai Jam*/
+.jamdigital {
+  overflow: hidden;
+  width: 330px;
+  margin: 20px auto;
+  border: 5px solid white;
+}
+
+/*Style untuk Angka Jam*/
+.jamdigital p {
+  color: blue;
+  font-size: 36px;
+  text-align: center;
+  margin-top: 30px;
+}

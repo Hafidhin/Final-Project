@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Final Project</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+	<center><h2>Final Project Pemrograman Web</h2></center>
+
+	<div class="jamdigital">
+	
+		<div class="kotak">
+			<p id="jam"></p>
+		</div>
+
+		<div class="kotak"> 
+			<p id="menit"></p>
+		</div>
+
+		<div class="kotak"> 
+			<p id="detik"></p>
+		</div>
+
+	</div>
+
+	<div class="background">
+ /**/
+		<form method="POST" action="maliki.php" onSubmit="validasi()">
+			<div>
+				<label>Nama Lengkap:</label>
+				<input type="text" name="nama" id="nama" />
+			</div>
+
+			<div>
+				<label>Nim</label>
+
+				<input type="text" name="nim" id="nim" />
+			</div>
+
+			<div>
+				<label>Email:</label>
+				<input type="email" name="email" id="email"/>
+			</div>
+
+			<div>
+				<label>Alamat:</label>
+				<input type="text" name="alamat" id="alamat"/>
+			</div>
+
+			<div>
+				<input type="submit" value="Daftar" name="daftar" class="tombol">
+			</div>
+		</form> 
+		<ul>
+
+			<li><a href="guest.php">List Pendaftar</a></li>
+		</ul>
+	</div>
+
+	<div class="footer">
+				<h1 align="center" id="akhir"></h1>
+			</div>
+</body>
+<script type="text/javascript" src="dimar.js"></script>
+	
+</script>
+</html>
+
+</body>
+</html>
